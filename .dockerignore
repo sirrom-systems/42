@@ -1,13 +1,13 @@
 # example files
-Demo/
-InOut/
-# Standalone/
-Tx/
-Rx/
+examples/
 
 # extranneous files
 Screenshots/
 Docs/
+Database/
+Development/
+MonteCarlo/
+Utilities/
 
 # graphics files
 # Model/
