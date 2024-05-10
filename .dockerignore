@@ -16,3 +16,6 @@ World/
 # dockerfile
 Dockerfile
 .dockerignore
+.git
+.github
+.gitignore
