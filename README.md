@@ -35,7 +35,7 @@ Features:
 
 Pull the image:
 
-```console
+```shell
 docker pull sirromsystems/42
 ```
 
@@ -43,13 +43,13 @@ docker pull sirromsystems/42
 
 Install dependencies
 
-```console
+```shell
 sudo apt -y install make gcc g++ freeglut3-dev libglfw3-dev
 ```
 
 Compile
 
-```console
+```shell
 make clean; make
 ```
 
@@ -71,14 +71,14 @@ For OpenGL graphics, newer Macs with Retina displays will need the GLFW graphics
 
 If you're using docker, run it:
 
-```console
+```shell
 docker run -v ${PWD}/path/to/sim/input/dir:/42/testcase 42
 ```
 
 Note: the docker image will attempt to look for the input case called "testcase", to change
 this simply provide the case name as the first argument:
 
-```console
+```shell
 docker run -v ${PWD}/path/to/sim/input/dir:/42/MyCoolSimName 42 MyCoolSimName
 ```
 
@@ -90,7 +90,7 @@ input files. "Inp_Sim.txt" is the top-level input file.
 The input/output folder may be changed for a sim run by running 42 with an
 argument. For example, enter this at the command prompt:
 
-```console
+```shell
 ./42 examples/Demo
 ```
 
